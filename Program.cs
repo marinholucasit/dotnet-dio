@@ -7,7 +7,7 @@ namespace Series
         static void Main(string[] args)
         {        
             Serie obj = new Serie();
-                                        
+                                      
             Console.WriteLine("Hello World!");
         }
     }
