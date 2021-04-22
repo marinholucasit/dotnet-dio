@@ -1,0 +1,16 @@
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/Series
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/Series.deps.json
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/Series.runtimeconfig.json
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/Series.runtimeconfig.dev.json
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/Series.dll
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/ref/Series.dll
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/bin/Debug/net5.0/Series.pdb
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.csprojAssemblyReference.cache
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.AssemblyInfoInputs.cache
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.AssemblyInfo.cs
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.csproj.CoreCompileInputs.cache
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.dll
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/ref/Series.dll
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.pdb
+/home/lucasgomes/Documentos/workSpace/dotnet/Digital inovation/Series/obj/Debug/net5.0/Series.genruntimeconfig.cache

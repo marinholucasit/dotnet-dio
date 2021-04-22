@@ -9,32 +9,32 @@ namespace Series
 
     public void Add(Serie entity)
     {
-      throw new System.NotImplementedException();
+      seriesList.Add(entity);
     }
 
     public void Delete(int id)
     {
-      throw new System.NotImplementedException();
+      seriesList[id].Delete();
     }
 
     public Serie FindById(int id)
     {
-      throw new System.NotImplementedException();
+      return seriesList[id];
     }
 
     public List<Serie> List()
     {
-      throw new System.NotImplementedException();
+      return seriesList;
     }
 
     public int NextId()
     {
-      throw new System.NotImplementedException();
+      return seriesList.Count;
     }
 
     public void Update(int id, Serie entity)
     {
-      throw new System.NotImplementedException();
+      seriesList[id] = entity;
     }
   }
 }
