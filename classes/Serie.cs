@@ -25,6 +25,7 @@ namespace Series
             message += "Description: "+this.Description + Environment.NewLine;
             message += "Genre: "+this.Genre + Environment.NewLine;
             message += "Year: "+this.Year + Environment.NewLine;
+            message += "Is Deleted: "+this.Deleted + Environment.NewLine;
             return message;
         }  
 

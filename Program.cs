@@ -24,14 +24,52 @@ namespace Series
                         AddSerie();
                         break;
 
-                    default:
-                        Console.WriteLine("Invalid option");
+                    case "3":
+                        UpdateSerie();
                         break;
+
+                    case "4":
+                        DeleteSerie();
+                        break;
+
+                    case "5":
+                        FindSerieById();
+                        break;
+
+                    case "C":
+                        Console.Clear();
+                        break;
+
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                        
                 }
                 userOption = getUserOption();
             }
 
             Console.WriteLine("Thank you! Bye bye.");
+        }
+
+        private static void FindSerieById(){
+            Console.WriteLine("show serie");
+            Console.WriteLine();
+
+            Console.WriteLine("Inform ID to show: ");
+            int idIn = int.Parse(Console.ReadLine());
+            Serie serie = repository.FindById(idIn);
+            Console.WriteLine(serie);
+
+        }
+
+        private static void DeleteSerie(){
+            Console.WriteLine("Update serie");
+            Console.WriteLine();
+
+            Console.WriteLine("Inform ID to delete: ");
+            int idIn = int.Parse(Console.ReadLine());
+
+            repository.Delete(idIn);
+
         }
 
         private static void AddSerie(){
@@ -59,6 +97,38 @@ namespace Series
                                     year: yearIn);
 
             repository.Add(serie);
+
+        }
+
+        private static void UpdateSerie(){
+            Console.WriteLine("Update serie");
+            Console.WriteLine();
+
+            Console.WriteLine("Inform ID to update: ");
+            int idIn = int.Parse(Console.ReadLine());
+
+            foreach (int i in Enum.GetValues(typeof(Genre)))
+            {
+                Console.WriteLine("{0} - {1}", i, Enum.GetName(typeof(Genre), i));    
+            }    
+            Console.WriteLine("Inform gender according to the options above: ");
+            int genreIn = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Inform the title: ");
+            string titleIn = Console.ReadLine();
+
+            Console.WriteLine("Inform the year of serie: ");
+            int yearIn = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Inform a description: ");
+            string descriptionIn = Console.ReadLine();
+            
+            Serie serie = new Serie(id: idIn,
+                                    title: titleIn, 
+                                    description: descriptionIn, 
+                                    genre:(Genre)genreIn, 
+                                    year: yearIn);
+            repository.Update(idIn, serie);            
 
         }
 
